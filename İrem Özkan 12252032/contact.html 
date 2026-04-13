@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <nav>
+        <ul>
+            <li><a href="index.html">Back to Home</a></li>
+        </ul>
+    </nav>
+
+    <h2>Get In Touch</h2>
+    <form action="#" method="post">
+        <h3>First Name</h3>
+        <input type="text" placeholder="Your Name" required>
+        
+        <h3>Last Name</h3>
+        <input type="text" placeholder="Your Surname" required>
+        
+        <h3>Email Address</h3>
+        <input type="email" placeholder="email@example.com" required><br><br>
+        
+        <h3>Message</h3>
+        <textarea rows="4" cols="30" placeholder="Your message..."></textarea><br><br>
+        
+        <input type="submit" value="Send Message">
+    </form>
+    </center>
+</body>
+</html>
