@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 60px auto;
+  max-width: 900px;
+  background: #f8fafc;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+.site-header {
+  margin-bottom: 48px;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 20px;
+}
+
+.tagline {
+  color: #64748b;
+  font-size: 1.1rem;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* FLEX GALLERY */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.gallery .card {
+  flex: 1 1 200px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* FORM */
+.form-card {
+  max-width: 400px;
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+}
+
+/* BUTTONS */
+.btn-primary {
+  padding: 14px 24px;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+}
+
+.btn-secondary {
+  padding: 12px 22px;
+  border-radius: 10px;
+  background: transparent;
+  border: 2px solid #2563eb;
+  color: #2563eb;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  background: #eff6ff;
+}
